@@ -1,0 +1,8 @@
+Field Name,Oracle Format,SAP Format,Mapping Confidence,Normalized,Notes
+GL Account,Numeric,Numeric,0.98,Yes,Direct match
+Cost Center,Alphanumeric,Alphanumeric,0.96,Yes,Matched via rule-based token
+Posting Date,YYYY-MM-DD,DD.MM.YYYY,0.89,Yes,Date reformat required
+Amount,Float,Float,0.99,Yes,Exact match
+Document Type,Code,Text,0.84,Yes,Lexical normalization used
+Reference,Text,Free Text,0.73,No,Low similarity due to formatting
+Tax Code,Numeric,Alpha,0.68,No,Manual intervention required

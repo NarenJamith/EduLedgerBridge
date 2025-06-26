@@ -1,0 +1,8 @@
+Metric,Value,Notes
+Overall Mapping Accuracy,92.6%,Across 500 record pairs
+Avg. Field Confidence Score,0.88,Token-based and semantic hybrid
+Coverage of Key Fields (>90%),5 out of 7,Only Tax Code and Reference fell below
+Avg. Simulation Processing Time,2.3 seconds,Per journal pair
+Rule Extraction Precision,91.2%,Valid rules vs total inferred
+Alignment Confidence > 0.80,92.5%,Share of total mapped pairs
+Alignment Confidence > 0.93,78.2%,High-certainty zone
